@@ -1,8 +1,17 @@
 def add(a,b):
-    print(a+b)
+    try:
+        print(a+b)
+    except ValueError:
+        print("Invalid number")
     
 def subtract(a,b):
-    print(a-b)
+    try:
+        print(a-b)
+    except ValueError:
+        print("Invalid number")
     
 def multiply(a,b):
-    print(a*b)
+    try: 
+        print(a*b)
+    except ValueError:
+        print("Invalid number")
